@@ -1,3 +1,3 @@
-declare function escapeStringRegexp (string: string): string;
+declare var escapeStringRegexp: (string: string) => string;
 
 export = escapeStringRegexp;
